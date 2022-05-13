@@ -1,16 +1,6 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  overflow-y: scroll;
 }
 
 .App-header {
@@ -24,23 +14,21 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navicon {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .img {
   border-radius: 50%;
   width: 120px;
   height: 120px;
+}
+
+.homepage-gif {
+  border-radius: 30%;
+  width: 13px;
+  height: 10px;
 }
 
 .homepage-title {
@@ -51,13 +39,17 @@
   line-height: 1.75rem;
   font-weight: 600;
   font-family: Copperplate, Papyrus, fantasy;
-  background-image: url("https://thumbs.dreamstime.com/z/violin-over-music-score-sheet-134768786.jpg");
 }
 
 .homepage-subdescription {
   width: 100%;
-  height: 12.5rem;
+  height: 23rem;
   --tw-bg-opacity: 1;
   background-color: rgba(229, 231, 235, var(--tw-bg-opacity));	 
+  border-radius: 1rem;
+}
+
+.homepage-testimonial {
+  background-color: #fdd9b5;
   border-radius: 1rem;
 }
