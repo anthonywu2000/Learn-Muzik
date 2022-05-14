@@ -14,7 +14,7 @@ export const NavigationBar = () => {
                     <Nav.Link href="/theory">Basic Music Theory</Nav.Link>
                     <Nav.Link href="/composersquiz">Composers Quiz</Nav.Link>
                     <Nav.Link href="/theoryquiz">Basic Music Theory Quiz</Nav.Link>
-                    <Nav.Link href="/contact">Contact us</Nav.Link>
+                    <Nav.Link href="/contact">Contact us!</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>

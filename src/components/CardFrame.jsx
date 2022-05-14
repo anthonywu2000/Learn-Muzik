@@ -3,12 +3,12 @@ import { Card, Badge } from 'react-bootstrap';
 
 export const CardFrame = ({img, title, body, badgeText}) => {
     return (
-        <Card style={{ width: '18rem' }}>
+        <Card className="cardstyle">
             <Card.Img variant="top" src={img} />
             <Card.Body>
                 <Card.Title>
                     {title} 
-                    <Badge pill bg="warning">{badgeText}</Badge>
+                    <Badge pill bg="success" className="cardbadge">{badgeText}</Badge>
                 </Card.Title>
                 <Card.Text>
                     {body}
